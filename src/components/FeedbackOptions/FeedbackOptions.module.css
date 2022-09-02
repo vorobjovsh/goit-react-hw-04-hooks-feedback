@@ -1,0 +1,17 @@
+.feed {
+  padding: 5px 15px;
+  margin-right: 15px;
+}
+
+.feed::first-letter {
+  text-transform: uppercase;
+}
+
+.feed:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.feedLast {
+  margin-right: 0;
+}
